@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-1124B7DD33813605AC0D0DFCC523EDC1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <organizations default="ORG-67B26ABD896F358D41D6195480A2BB34">
+    <organization identifier="ORG-67B26ABD896F358D41D6195480A2BB34" structure="hierarchical">
+      <title>Conceptos básicos sobre límites</title>
+      <item identifier="ITEM-90DC19ABE469C8962162FC88CEFF5127" isvisible="true">
+        <title>Item</title>
+        <item identifier="ITEM-E4E1F10444B018A546B06AF29A03E062" isvisible="true" identifierref="RES-39167DDF4C2F1D7B09602DA353E546FD">
+          <title>Conceptos básicos sobre límites</title>
+        </item>
+      </item>
+      <metadata>
+        <imsmd:lom>
+          <imsmd:general>
+            <imsmd:identifier>Conceptos básicos sobre límites</imsmd:identifier>
+            <imsmd:language>es</imsmd:language>
+          </imsmd:general>
+          <imsmd:technical>
+            <imsmd:format>text/html</imsmd:format>
+          </imsmd:technical>
+          <imsmd:educational>
+            <imsmd:language>es</imsmd:language>
+          </imsmd:educational>
+        </imsmd:lom>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-39167DDF4C2F1D7B09602DA353E546FD" adlcp:scormType="asset" type="webcontent" href="index.html">
+      <file href="index.html" />
+      <file href="css/materialize.min.css" />
+    </resource>
+  </resources>
+</manifest>
+

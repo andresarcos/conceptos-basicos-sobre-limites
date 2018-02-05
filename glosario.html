@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/ova.css">
+      <link rel="stylesheet" href="css/animate.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!-- Preloader Start --> 
+        <div id="main-preloader" class="main-preloader semi-dark-background">
+            <div class="main-preloader-inner center">
+                <img src="img/logo-umng-menu.png" height="60px">
+                <h1 class="preloader-percentage center">
+                    <span class="preloader-percentage-text">0</span> <!-- Show Percentage Number -->
+                    <span class="percentage">%</span>
+                </h1>
+                <div class="preloader-bar-outer">
+                    <div class="preloader-bar"></div> <!-- Percentage Precess Bar -->
+                </div>
+
+            </div>
+        </div>
+        <!-- Preloader Start --> 
+      <header>
+        <!--- Botón flotante parte inferior -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large green-equidad btn tooltipped" data-position="left" data-delay="50" data-tooltip="Seleccionar">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red tooltipped" data-position="left" data-tooltip="Glosario" href="glosario.html"><i class="material-icons">reorder</i></a></li>
+            <li><a class="btn-floating yellow darken-1 tooltipped" data-position="left" data-tooltip="Bibliografía" href="bibliografia.html"><i class="material-icons">library_books</i></a></li>
+            <li><a class="btn-floating green tooltipped" data-position="left" data-tooltip="Autores" href="autores.html"><i class="material-icons">people</i></a></li>
+          </ul>
+        </div>
+        <!--- /Botón flotante parte inferior -->
+
+        <!--Menú de Navegación desplegable -->
+        <ul id="dropdown-lecciones" class="dropdown-content"><li><a href="1-1-introducci-n-a-l-mites.html">Introducción a límites</a></li><li><a href="1-2-l-mites-a-partir-de-tablas.html">Límites a partir de tablas</a></li><li><a href="1-3-pr-ctica-l-mites-a-partir-de-tablas.html">Práctica: Límites a partir de tablas</a></li><li><a href="1-4-l-mites-a-partir-de-gr-ficas-funci-n-indefinida.html">Límites a partir de gráficas: función indefinida</a></li><li><a href="1-5-l-mites-a-partir-de-gr-ficas-el-l-mite-no-es-igual-al-valor-de-la-funci-n.html">Límites a partir de gráficas: el límite no es igual al valor de la función</a></li><li><a href="1-6-l-mites-a-partir-de-gr-ficas-as-ntota.html">Límites a partir de gráficas: asíntota</a></li><li><a href="1-7-practica-l-mites-a-partir-de-gr-ficas.html">Practica: Límites a partir de gráficas</a></li></ul>
+        <!--/Menú de Navegación desplegable -->
+        <!--Menú de Navegación Web -->
+        <nav class="nav-fixed">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="padding-left: 50px;"><img src="img/logo-umng-menu.png" height="60px"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="temario.html">Temario</a></li>
+              <li><a href="glosario.html">Glosario</a></li>
+              <li><a href="bibliografia.html">Bibliografía</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="dropdown-lecciones">Lecciones<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="2-8-l-mites-unilaterales-a-partir-de-gr-ficas.html">Siguiente Tema</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!--Menú de Navegación Dsipositivos Móviles-->
+            <ul class="side-nav" id="mobile-demo">
+              <li><div class="userView" style="background-color: rgba(24,43,87,1);">
+                <img src="img/logo-umng-menu.png">
+                <p class="white-text">Límites a partir de tablas</p>
+            </div></li>
+            <li class="bold"><a href="index.html"><i class="material-icons icono-militar">home</i>Inicio</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="temario.html"><i class="material-icons icono-militar">arrow_back</i>Regresar al temario</a></li>
+              <li class="divider"></li>
+              <li><a class="subheader">Introducción a límites</a></li><li class="bold"><a href="1-1-introducci-n-a-l-mites.html"><i class="material-icons icono-militar">play_arrow</i>Introducción a límites</a></li><li class="bold"><a href="1-2-l-mites-a-partir-de-tablas.html"><i class="material-icons icono-militar">play_arrow</i>Límites a partir de tablas</a></li><li class="bold"><a href="1-3-pr-ctica-l-mites-a-partir-de-tablas.html"><i class="material-icons icono-militar">create</i>Práctica: Límites a partir de tablas</a></li><li class="bold"><a href="1-4-l-mites-a-partir-de-gr-ficas-funci-n-indefinida.html"><i class="material-icons icono-militar">play_arrow</i>Límites a partir de gráficas: función indefinida</a></li><li class="bold"><a href="1-5-l-mites-a-partir-de-gr-ficas-el-l-mite-no-es-igual-al-valor-de-la-funci-n.html"><i class="material-icons icono-militar">play_arrow</i>Límites a partir de gráficas: el límite no es igual al valor de la función</a></li><li class="bold"><a href="1-6-l-mites-a-partir-de-gr-ficas-as-ntota.html"><i class="material-icons icono-militar">play_arrow</i>Límites a partir de gráficas: asíntota</a></li><li class="bold"><a href="1-7-practica-l-mites-a-partir-de-gr-ficas.html"><i class="material-icons icono-militar">create</i>Practica: Límites a partir de gráficas</a></li></ul>          
+        <!-- /Menú de Navegación Web -->
+      </header>
+      
+      <section class="container white">
+        <div class="row">
+          <div class="col s12 center">
+            <h4>Glosario</h4>            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12" style="padding: 30px;">
+            <h5>Función</h5>
+            <p>Una función es una relación que se establece entre los elementos de dos conjuntos A y B (conocidos como dominio y rango), donde a cada elemento del conjunto A le corresponde un único y solamente un elemento de B.</p>
+            <h5>Rango</h5>
+            <p>Es el conjunto formado por las imágenes de cada elemento del conjunto de salida. Son los valores que toma la función "Y" (variable dependiente de acuerdo con los valores de x), por eso se denomina “f(x)”, su valor depende del valor que le da a "X". Gráficamente lo miramos en el eje vertical (ordenadas).</p>
+            <p>El Rango de una función es el conjunto formado por las imágenes f(x) de los valores de “X” que pertenecen al Dominio de dicha función.</p>
+            <h5>Dominio</h5>
+            <p>Es el conjunto formado por los elementos que tienen imagen. Los valores que le damos a “X” (variable independiente) forman el conjunto de partida. Gráficamente lo miramos en el eje horizontal (abscisas), leyendo como escribimos de izquierda a derecha.</p>
+            <p>El dominio de una función está formado por aquellos valores de "X" (números reales) para los que se puede calcular la imagen f(x).</p>
+            <h5>Función exponencial</h5>
+            <p>Es conocida formalmente como la función real ex, donde e es el número de Euler, aproximadamente 2.71828.; esta función tiene por dominio de definición el conjunto de los números reales, y tiene la particularidad de que su derivada es la misma función.</p>
+            <h5>Variable</h5>
+            <p>Una variable es la expresión simbólica representativa de un elemento no especificado, cuyo valor puede ser modificado.</p>
+            <h5>Límite</h5>
+            <p>El límite describe la tendencia de una sucesión o una función, a medida que los parámetros de esa función se acercan a un valor determinado. Sea f(x) una función definida en un intervalo abierto I, que contiene el punto a (excepto posiblemente a), y sea L un número real. La notación: $$\lim_{x \to a} f(x) = L$$</p>
+            <h5>Continuidad</h5>
+            <p>Una función real de variable real es continua en un intervalo cuando su representación gráfica, se puede dibujar sobre el papel a lo largo de dicho intervalo sin levantar el lápiz. La descripción matemática de esta idea intuitiva recurre al uso de la noción de límite.</p>
+            <h5>Función discontinua</h5>
+            <p>Aquella que no cumple la definición de función continua, es decir, existe algún punto del dominio donde el límite de la función a ese punto no es igual al valor de está o no definida en el mismo punto.</p>
+            <h5>Derivada</h5>
+            <p>Dada una función f(x), definida en un intervalo abierto del punto a, se define la derivada de f en x, como:$$f^\prime(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$</p>
+            <p>siempre que el limite exista, entoces existe la derivada, y donde ∆x representa el diferencial de  la variable x. El cociente que aparece en la definición recibe el nombre de cociente incremental.</p>
+            <h5>Cálculo Diferencial</h5>
+            <p>Se conoce como el estudio del cambio de las variables dependientes cuando cambian las variables independientes de las funciones definidas en una o mas variables.</p>
+            <h5>Pendiente de una recta</h5>
+            <p>Sea f(x) una función, definida en un intervalo I, La inclinación de una recta respecto de la horizontal sobre la curva determinada por f(x) en un solo punto, recibe el nombre de pendiente de la recta tangencial a la curva, matemáticamente se representa por medio de la derivada de la función en el punto x=a.</p>
+            <h5>Razón de cambio</h5>
+            <p>Es la magnitud del cambio de una variable por unidad de cambio de la otra, con respecto al tiempo. (También se le conoce como tasa de cambio.) Si las variables no tienen ninguna dependencia, ni variación la tasa de cambio es cero.</p>
+            <h5>Regla cadena</h5>
+            <p>En cálculo, la regla de la cadena es una fórmula para la derivada de la composición de dos funciones. Tiene aplicaciones en el cálculo algebraico de derivadas cuando existe composición de funciones.</p>
+            <h5>Límites indeterminados</h5>
+            <p>El cálculo de límites de cocientes, diferencias y productos de funciones en los que al reemplazar la variable por el valor x=a, al cual tiende, donde se presentan indeterminaciones de la forma $\frac{0}{0}, \frac{\infty}{\infty}, 0*\infty, \infty*-\infty$. El resultado de estos límites no puede anticiparse, por lo cual se requiere de procesos algebraicos para llegar a determinar su convergencia.</p>
+            <h5>Regla de l'hopital</h5>
+            <p>La regla de L’Hôpital permite abordar la resolución de las indeterminaciones en el cálculo de límites de funciones Su concepto, plantea calcular la convergencia de un límite a partir de las derivadas:
+            $$\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f^\prime(x)}{g^\prime(x)}$$</p>
+            <h5>Infinito</h5>
+            <p>Se refiere a una cantidad sin límite. Expresa un valor mayor que cualquier cantidad asignable.</p>
+            <h5>Teorema de Rolle</h5>
+            <p>El teorema de Rolle y el teorema del valor medio. ... Pues bien, lo que dice el teorema de Rolle es lo siguiente: Teorema. Si $f(x)$ es una función derivable ("suave") en el intervalo (a, b), y además $f( a ) = f( b )$ entonces existe un punto intermedio c, esto es a < c < b, tal que $f^\prime( c ) = 0$.</p>
+            <h5>Teorema del valor medio</h5>
+            <p>El teorema del valor medio para derivadas (o teorema de Lagrange) es un resultado central en la teoría de funciones reales. Este teorema relaciona valores de una función con los de su ´ derivada y pone de manifiesto la relación entre el signo de la derivada de una función y el ´ comportamiento de la función con respecto a crecimiento y decrecimiento.</p>
+            <h5>Función creciente</h5>
+            <p>Una función creciente f es una función tal que en un intervalo,  al aumentar la variable independiente x, aumenta la variable dependiente y, o para el caso en el que se  utilice el concepto de la derivada, $\frac{df}/{dx}$ es positiva en dicho intervalo.</p>
+            <p><img src="img/creciente.jpg" alt="Función creciente"></p>
+            <h5>Función decreciente</h5>
+            <p>Una función creciente f es una función tal que en un intervalo,  al aumentar la variable independiente x, aumenta la variable dependiente y, o para el caso en el que se  utilice el concepto de la derivada, $\frac{df}{dx}$ es negativa en dicho intervalo.</p>
+            <h5>Optimización</h5>
+            <p>En matemáticas la optimización o programación matemática intenta dar respuesta a un tipo general de problemas donde se desea elegir el mejor entre un conjunto de elementos. En su forma más simple, el problema equivale a resolver una ecuación de este tipo:</p>
+            <p><img src="img/optimizacion.jpg" alt="Optimización"></p>
+            <h5>Gráfica</h5>
+            <p>Es la representación de una función f en un intervalo I, la gráfica es una curva que se dibuja en el plano cartesiano a partir de un conjunto de puntos coordenados (x,y) datos  de tipo numérico, el trazo se realiza mediante líneas, vectores, superficies o símbolos, para que se manifieste visualmente la relación matemática.</p>
+            <h5>Asíntota</h5>
+            <p>Línea recta que puede ser horizontal, vertical u oblicua a la que se aproxima una curva como gráfica de una determinada función. Estas asíntotas suelen aparecer al haber puntos donde la función no esté definida. En el ámbito de la geometría se interpreta como una recta que decribe la trayectoria de una curva a medida que se prolonga de manera indefinida, sin alcanzar a tocarse en el infinito.</p>
+            <h5>Pendiente</h5>
+            <p>La pendiente es la inclinación de la recta con respecto al eje de abscisas. Se denota con la letra $m$</p>
+            <h5>Abscisa</h5>
+            <p>Las coordenadas de un punto $P$ se representan por $(x,y)$. A la primera coordenada se le denomina abscisa o coordenda x del punto. La abscisa es la distancia horizontal al eje vertical o de ordenadas.</p>
+            <h5>Recta tangente</h5>
+            <p>La recta tangente a una curva en un punto es aquella que pasa por el punto $(a, f(a)))$ y cuya pendiente es igual a $f^\prime(x)$</p>
+
+
+          </div>
+        </div>
+      </section>
+
+
+    <footer class="page-footer">
+          
+          <div class="footer-copyright">
+            <div class="container grey-text text-darken-4">
+            © 2017 Copyright <br/>Universidad Militar Nueva Granada.
+            </div>
+          </div>
+        </footer>
+
+      
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"
+      ></script>
+      <script type="text/javascript" src="js/sPreloader.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+      <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+      </script>
+      <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+      </script>
+      <script type="text/javascript" src="js/wow.min.js"></script>
+      <script type="text/javascript" src="js/animatedmodal.min.js"></script>
+    
+      <script type="text/javascript">        
+       $('body').jpreLoader({
+           preMainSection:     '#main-preloader',
+           prePerText:         '.preloader-percentage-text',
+           preBar:             '.preloader-bar',
+       });       
+    </script> 
+    </body>
+  </html>

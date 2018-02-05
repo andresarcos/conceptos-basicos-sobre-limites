@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/ova.css">
+      <link rel="stylesheet" href="css/animate.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!-- Preloader Start --> 
+        <div id="main-preloader" class="main-preloader semi-dark-background">
+            <div class="main-preloader-inner center">
+                <img src="img/logo-umng-menu.png" height="60px">
+                <h1 class="preloader-percentage center">
+                    <span class="preloader-percentage-text">0</span> <!-- Show Percentage Number -->
+                    <span class="percentage">%</span>
+                </h1>
+                <div class="preloader-bar-outer">
+                    <div class="preloader-bar"></div> <!-- Percentage Precess Bar -->
+                </div>
+
+            </div>
+        </div>
+        <!-- Preloader Start --> 
+      <header>
+        <!--- Botón flotante parte inferior -->
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large green-equidad btn tooltipped" data-position="left" data-delay="50" data-tooltip="Seleccionar">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red tooltipped" data-position="left" data-tooltip="Glosario" href="glosario.html"><i class="material-icons">reorder</i></a></li>
+            <li><a class="btn-floating yellow darken-1 tooltipped" data-position="left" data-tooltip="Bibliografía" href="bibliografia.html"><i class="material-icons">library_books</i></a></li>
+            <li><a class="btn-floating green tooltipped" data-position="left" data-tooltip="Autores" href="autores.html"><i class="material-icons">people</i></a></li>
+          </ul>
+        </div>
+        <!--- /Botón flotante parte inferior -->
+
+        <!--Menú de Navegación desplegable -->
+        <ul id="dropdown-lecciones" class="dropdown-content">
+          <li><a href="../leccion01/">Introducción a Límites</a></li>
+          <li><a href="../leccion02/">Límites por aproximación de tabla</a></li>
+          <li><a href="../leccion03/">Límites a partir de gráficas</a></li>
+          <li><a href="../leccion04/">Propiedades de los límites</a></li>
+          <li><a href="../leccion05/">Límites a partir de ecuaciones</a></li>
+        </ul>
+        <!--/Menú de Navegación desplegable -->
+        <!--Menú de Navegación Web -->
+        <nav class="nav-fixed">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="padding-left: 50px;"><img src="img/logo-umng-menu.png" height="60px"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="temario.html">Temario</a></li>
+              <li><a href="glosario.html">Glosario</a></li>
+              <li><a href="bibliografia.html">Bibliografía</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="dropdown-lecciones">Lecciones<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="bibliografia.html">Siguiente Tema</a></li>
+            </ul>
+          </div>
+        </nav>
+
+            <!--Menú de Navegación Dsipositivos Móviles-->
+            <ul class="side-nav" id="mobile-demo">
+              <li><div class="userView" style="background-color: rgba(24,43,87,1);">
+                <img src="img/logo-umng-menu.png">
+                <p class="white-text">Título de la clase</p>
+            </div></li>
+              <li class="bold"><a href="01.html"><i class="material-icons icono-militar">home</i>Inicio</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="01.html"><i class="material-icons icono-militar">arrow_back</i>Regresar al temario</a></li>
+              <li class="divider"></li>
+              <li><a class="subheader">Límites unilaterales</a></li>
+              <li class="bold active"><a href="#" class="waves-effect waves-teal"><i class="material-icons icono-militar">play_arrow</i>A partir de gráficas</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="01.html"><i class="material-icons icono-militar">play_arrow</i>A partir de gráficas: asíntota</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="02.html"><i class="material-icons icono-militar">play_arrow</i>A partir de tablas</a></li>
+              <li class="divider"></li>
+              <li><a class="bold"><i class="material-icons icono-militar">play_arrow</i>Límites unilaterales vs. bilaterales (gráficamente)</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="03.html"><i class="material-icons icono-militar">play_arrow</i>Límites unilaterales vs. bilaterales (algebraicamente)</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="04.html"><i class="material-icons icono-militar">play_arrow</i>Límites unilaterales vs. bilaterales (más ejemplos)</a></li>
+              <li class="divider"></li>
+              <li class="bold"><a href="06.html"><i class="material-icons icono-militar">create</i>Práctica: Límites unilaterales</a></li>
+              
+              <li class="divider"></li>
+              <li class="bold" style="background-color: rgba(24,43,87,0.3);"><a href="leccion03/">Siguiente Tema: Definición formal de los límites (épsilon-delta)</a></li>
+            </ul>          
+        <!-- /Menú de Navegación Web -->
+      </header>
+      <main>
+      <section class="container escenario">
+        <div class="row titulo-slide center-align white-text flow-text">
+          <div class="col s12"><strong>Introducción a límites</div>
+        </div>
+      </section>
+
+      <section class="white ">
+        <div class="row">
+          <div class="col s12 center-align black" id="contenedor">
+              <iframe width="706" height="397" src="https://www.youtube.com/embed/nqnxxmnK5Lk?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="white container" style="padding: 20px;">
+        <div class="row">
+          <div class="col s10 flow-text green lighten-5" style="border-radius: 10px;">
+            <p>El concepto de límite de una función es una de las ideas fundamentales que distinguen al cálculo de otras áreas de las matemáticas. Presentaré una descripción matemática precisa del límite de una función y luego mostraré varis propiedades de los mismos.</p>
+            <p>Supóngamos que un físico desea hacer unas mediciones cuando la presión es igual a cero. Como esto es imposible de lograr en un laboratorio (no es posible lograr un vacío perfecto), una manera de solucionarlo es haciendo mediciones de presiones muy pequeñas acercándose a cero. Si nos acercamos a cero, los valores de presión se acercan a un número $L$, entonces es posible suponer que la medición en el vacío (cuando la presión es cero) sería también $L$. Todo esto lo podemos notar de la siguiente forma:</p>
+          </div>
+          <div class="col s2"><img class="circle responsive-img" src="img/personaje-felipe.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s10 flow-text green lighten-5" style="border-radius: 10px;">
+            <p>Sea $f$ una función definida en un intervalo abierto que contiene el número $a$ (excepto posiblemente en $a$), el límite de $f$ cuando $x$ tiende al número $a$ es igual a $L$, se escribe</p>
+            $$\lim_{x \to a} f(x) = L$$
+            <p>si y sólo si, los valores de $f(x)$ se aproximan cada vez más a $L$, cuando los valores de $x$ se aproximan tanto como como se desee al número $a$.</p>
+            <p>La anterior definición supone, por un lado, una función $f$ definida alrededor de $a$, no necesariamente en $a$ y por otro un acercamiento al número $a$, tanto por valores mayores como por valores menores.</p>
+            <p id="description-sample" class="center-align"></p>
+          </div>
+          <div class="col s2"><img class="circle responsive-img" src="img/personaje-felipe.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="white container"  style="padding: 20px;">
+        <div class="row">
+          <div class="col s12 flow-text">
+            <p>Las siguientes gráficas muestran el caso de tres funciones distintas con límite igual a $L$. Sigue la siguiente <a href="https://www.youtube.com/embed/Mjy5-zuEd-Y?rel=0" class="html5lightbox btn btn-large" title="Sigue las instrucciones">Instrucción</a> e interactúa con las gráficas</p>
+          </div>
+          <div class="col s12 right-align">
+              <ul class="pagination">
+                <li class="active" id="ejemplo01"><a href="#!">1</a></li>
+                <li class="waves-effect" id="ejemplo02"><a href="#!">2</a></li>
+                <li class="waves-effect" id="ejemplo03"><a href="#!">3</a></li>
+              </ul>  
+          </div>
+          <div class="col s12" id="ejemplos">
+            <h4>Ejemplo 1</h4>
+            <div class="intrinsic-container intrinsic-container-16x9" style="margin-bottom: 0px;">
+              <iframe scrolling="no" title="Introducción a los límites" src="https://www.geogebra.org/material/iframe/id/eUyPSK7M/width/1366/height/609/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1366px" height="609px" style="border:0px;"> </iframe>
+            </div>
+          </div>
+          <div class="col s12 flow-text green lighten-4"  style=" border-radius: 20px; margin-bottom: 10px;">
+            <h4>Analiza</h4>
+            <p>¿Qué encuentras cuando te acercas al valor de $x$  por la izquierda?</p>
+            <p>¿Qué encuentras cuando te acercas al valor de $x$ por la derecha?</p>
+          </div>
+        </div>
+      </section>
+  </main>
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s6">
+                <p><a href="temario.html" class="btn waves-effect waves-light green-equidad"><i class="material-icons left">skip_previous</i>Anterior</a></p>
+              </div>
+              <div class="col s6 right-align">
+                <p><a href="01.html" class="btn waves-effect waves-light green-equidad"><i class="material-icons right">skip_next</i>Siguiente</a></p>
+              </div>
+
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container grey-text text-darken-4">
+            © 2017 Copyright <br/>Universidad Militar Nueva Granada
+            <br /><span class="right-align"><a href="index.html">Inicio</a>| <a href="glosario.html">Glosario</a> | <a href="bibliografia.html">Bibliografía</a> | <a href="autores.html">Autores</a> | <a href="temario.html">Temario del módulo</a></span>
+            </div>
+          </div>
+        </footer>
+
+      
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"
+      ></script>
+      <script type="text/javascript" src="js/html5lightbox.js"></script>
+      <script type="text/javascript" src="js/sPreloader.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+      </script>
+      <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+      </script>
+      <script type="text/javascript" src="js/wow.min.js"></script>
+      <script type="text/javascript" src="js/animatedmodal.min.js"></script>
+
+       <script type="text/javascript">        
+       $('body').jpreLoader({
+           preMainSection:     '#main-preloader',
+           prePerText:         '.preloader-percentage-text',
+           preBar:             '.preloader-bar',
+       });       
+    </script>     
+      
+      <script>
+        $( document ).ready(function(){
+          $(".dropdown-button").dropdown();
+          $('.modal').modal();
+          $('.button-collapse').sideNav({
+              menuWidth: 350, // Default is 300
+              edge: 'left', // Choose the horizontal origin
+              closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+              draggable: true // Choose whether you can drag to open on touch screens
+            });
+          wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+
+              }
+            }
+          );
+          wow.init();
+          $("#ejemplo01").on("click",{valor:"1"}, ejemplo);
+          $("#ejemplo02").on("click",{valor:"2"}, ejemplo);
+          $("#ejemplo03").on("click",{valor:"3"}, ejemplo);
+
+          function ejemplo(event){
+            var url;
+            var codigo;
+
+            switch (event.data.valor){
+              case "1": url = "eUyPSK7M";
+                      $('#ejemplo01').addClass('active');
+                      $('#ejemplo02').removeClass('active');
+                      $('#ejemplo03').removeClass('active');
+                      break;
+              case "2": url = "AhDAkYwG";
+                      $('#ejemplo02').addClass('active');
+                      $('#ejemplo01').removeClass('active');
+                      $('#ejemplo03').removeClass('active');
+                      break;
+              case "3": url="rcbp5HTt";
+                      $('#ejemplo03').addClass('active');
+                      $('#ejemplo02').removeClass('active');
+                      $('#ejemplo01').removeClass('active');
+                      break;
+            }
+
+            codigo = '<h4>Ejemplo '+event.data.valor+'</h4><div class="intrinsic-container intrinsic-container-16x9" style="margin-bottom: 0px;"><iframe scrolling="no" title="Introducción a los límites" src="https://www.geogebra.org/material/iframe/id/'+url+'/width/1366/height/609/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1366px" height="609px" style="border:0px;"> </iframe></div>';
+            $("#ejemplos").html(codigo);
+          }
+
+        })
+      </script>
+    </body>
+  </html>
